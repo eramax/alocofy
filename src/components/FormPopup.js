@@ -1,84 +1,82 @@
-import styles from "./FormPopup.module.css";
+import "./FormPopup.css";
 
 const FormPopup = ({ onClose }) => {
   return (
-    <div className={styles.formPopupDiv}>
-      <div className={styles.frameDiv}>
-        <div className={styles.titleDiv}>
-          <div className={styles.frameDiv1}>
-            <div className={styles.iconGRIDSTARCUSTOMStudy}>
-              <div className={styles.rectangleDiv} />
-              <b className={styles.mCPB}>--</b>
+    <div className="formpopup-div">
+      <div className="frame-div91">
+        <div className="title-div">
+          <div className="frame-div92">
+            <div className="icon-gridstar-custom-study1">
+              <div className="rectangle-div1" />
+              <b className="mcp-b1">--</b>
             </div>
-            <div className={styles.titleDiv1}>Study</div>
+            <div className="title-div1">Study</div>
           </div>
-          <div
-            className={styles.descriptionDiv}
-          >{`Enter the workflow details before saving. `}</div>
+          <div className="description-div">{`Enter the workflow details before saving. `}</div>
         </div>
-        <div className={styles.actionBarDiv}>
-          <div className={styles.divider} />
+        <div className="action-bar-div">
+          <div className="divider3" />
         </div>
-        <div className={styles.frameDiv2}>
-          <div className={styles.inputBoxDiv}>
-            <div className={styles.assetsInputLabel}>
-              <div className={styles.labelDiv}>Name</div>
+        <div className="frame-div93">
+          <div className="input-box-div">
+            <div className="assets-input-label">
+              <div className="label-div7">Name</div>
             </div>
-            <div className={styles.assetsInputBox}>
+            <div className="assets-input-box1">
               <input
-                className={styles.inputAutoLayout}
+                className="input-auto-layout1"
                 type="text"
                 placeholder="Main Circuit Parameters"
               />
             </div>
           </div>
-          <div className={styles.inputBoxDiv1}>
-            <div className={styles.assetsInputLabel}>
-              <div className={styles.labelDiv}>Short Name</div>
+          <div className="input-box-div1">
+            <div className="assets-input-label">
+              <div className="label-div7">Short Name</div>
             </div>
-            <div className={styles.assetsInputBox}>
+            <div className="assets-input-box1">
               <input
-                className={styles.inputAutoLayout}
+                className="input-auto-layout1"
                 type="text"
                 placeholder="MCP"
               />
             </div>
           </div>
         </div>
-        <div className={styles.textAreaDiv}>
-          <div className={styles.assetsInputLabel2}>
-            <div className={styles.labelDiv}>Description</div>
+        <div className="text-area-div">
+          <div className="assets-input-label2">
+            <div className="label-div7">Description</div>
           </div>
-          <div className={styles.assetsTextAreaInput}>
+          <div className="assets-text-area-input">
             <textarea
-              className={styles.inputTextarea}
+              className="input-textarea"
               placeholder="The tasks and workflows required to define the parameters for the main circuit. "
             />
-            <img className={styles.icon} alt="" src="../icon.svg" />
+            <img className="icon" alt="" src="../icon.svg" />
           </div>
         </div>
-        <div className={styles.frameDiv3}>
-          <div className={styles.labelDiv}>Tags</div>
-          <div className={styles.tagsDiv1}>
-            <div className={styles.tagDiv}>
-              <div className={styles.labelDiv3}>Study: MCP</div>
+        <div className="frame-div94">
+          <div className="label-div7">Tags</div>
+          <div className="tags-div2">
+            <div className="tag-div2">
+              <div className="label-div10">Study: MCP</div>
             </div>
-            <div className={styles.buttonDiv}>
-              <button className={styles.iconControlsAdd}>
-                <img className={styles.shapeIcon} alt="" src="../shape2.svg" />
+            <div className="button-div22">
+              <button className="icon-controls-add2">
+                <img className="shape-icon" alt="" src="../shape2.svg" />
               </button>
             </div>
           </div>
         </div>
-        <div className={styles.actionBarDiv}>
-          <div className={styles.divider} />
+        <div className="action-bar-div">
+          <div className="divider3" />
         </div>
-        <div className={styles.buttonsAutoLayout}>
-          <button className={styles.button1} onClick={onClose}>
-            <div className={styles.labelDiv4}>Cancel</div>
+        <div className="buttons-auto-layout">
+          <button className="button-1" onClick={onClose}>
+            <div className="label-div11">Cancel</div>
           </button>
-          <button className={styles.button2} onClick={onClose}>
-            <div className={styles.labelDiv5}>Submit</div>
+          <button className="button-2" onClick={onClose}>
+            <div className="label-div12">Submit</div>
           </button>
         </div>
       </div>

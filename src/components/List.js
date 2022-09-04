@@ -2,7 +2,7 @@ import { useState, useCallback } from "react";
 import FormPopup from "../components/FormPopup";
 import PortalPopup from "../components/PortalPopup";
 import MenuItems from "../components/MenuItems";
-import styles from "./List.module.css";
+import "./List.css";
 
 const List = ({ title }) => {
   const [isFormPopupOpen, setFormPopupOpen] = useState(false);
@@ -17,15 +17,12 @@ const List = ({ title }) => {
 
   return (
     <>
-      <div className={styles.studyListDiv}>
+      <div className="studylist-div">
         <MenuItems />
-        <div className={styles.headerDiv}>
-          <div className={styles.studiesDiv}>{title}</div>
-          <button
-            className={styles.iconToolsArchiveNew}
-            onClick={openFormPopup}
-          >
-            <img className={styles.shapeIcon} alt="" src="../shape.svg" />
+        <div className="header-div">
+          <div className="studies-div">{title}</div>
+          <button className="icon-tools-archivenew" onClick={openFormPopup}>
+            <img className="shape-icon7" alt="" src="../shape.svg" />
           </button>
         </div>
       </div>

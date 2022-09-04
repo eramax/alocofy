@@ -1,138 +1,138 @@
 import List from "../components/List";
 import MainHeader from "../components/MainHeader";
-import styles from "./StudyManagement.module.css";
+import "./StudyManagement.css";
 
 const StudyManagement = () => {
   return (
-    <div className={styles.studyManagementDiv}>
-      <div className={styles.mainContentDiv}>
+    <div className="study-management-div">
+      <div className="maincontent-div">
         <List title="Studies" />
-        <div className={styles.studyContentDiv}>
-          <div className={styles.studyHeaderDiv}>
-            <div className={styles.frameDiv}>
-              <div className={styles.frameDiv1}>
-                <div className={styles.frameDiv2}>
-                  <div className={styles.iconGRIDSTARCUSTOMStudy}>
-                    <div className={styles.rectangleDiv} />
-                    <b className={styles.mCPB}>MCP</b>
+        <div className="studycontent-div">
+          <div className="studyheader-div">
+            <div className="frame-div">
+              <div className="frame-div1">
+                <div className="frame-div2">
+                  <div className="icon-gridstar-custom-study">
+                    <div className="rectangle-div" />
+                    <b className="mcp-b">MCP</b>
                   </div>
-                  <div className={styles.mainCircuitParameters}>
+                  <div className="main-circuit-parameters">
                     Main Circuit Parameters
                   </div>
-                  <div className={styles.tagsDiv}>
-                    <div className={styles.tagDiv}>
-                      <div className={styles.labelDiv}>Study: MCP</div>
+                  <div className="tags-div">
+                    <div className="tag-div">
+                      <div className="label-div">Study: MCP</div>
                     </div>
-                    <div className={styles.tagDiv}>
-                      <div className={styles.labelDiv}>Tag: Value</div>
+                    <div className="tag-div">
+                      <div className="label-div">Tag: Value</div>
                     </div>
-                    <div className={styles.buttonDiv}>
+                    <div className="button-div">
                       <img
-                        className={styles.iconControlsAdd}
+                        className="icon-controls-add"
                         alt=""
                         src="../icon--controls--add.svg"
                       />
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--tools--edit.svg"
                     />
                   </div>
                 </div>
-                <div className={styles.descriptionOfTheWorkflowAn}>
+                <div className="description-of-the-workflow-an">
                   Description of the workflow and what it does. This is a longer
                   description to show what it looks like to break line.
                 </div>
               </div>
-              <div className={styles.frameDiv3}>
-                <div className={styles.buttonDiv2}>
+              <div className="frame-div3">
+                <div className="button-div2">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../icon--user--people.svg"
                   />
-                  <div className={styles.groupDiv}>Study Members</div>
+                  <div className="group-div">Study Members</div>
                 </div>
               </div>
             </div>
-            <div className={styles.divider} />
+            <div className="divider" />
           </div>
-          <div className={styles.groupsDiv}>
+          <div className="groups-div">
             <List title="Groups" />
-            <div className={styles.groupContentDiv}>
-              <div className={styles.studyHeaderDiv}>
-                <div className={styles.frameDiv}>
-                  <div className={styles.frameDiv1}>
-                    <div className={styles.frameDiv2}>
+            <div className="groupcontent-div">
+              <div className="studyheader-div">
+                <div className="frame-div">
+                  <div className="frame-div1">
+                    <div className="frame-div2">
                       <img
-                        className={styles.iconToolsEdit}
+                        className="icon-tools-edit"
                         alt=""
                         src="../icon--tools--archive.svg"
                       />
-                      <div className={styles.groupDiv}>Precalc</div>
-                      <div className={styles.buttonDiv1}>
+                      <div className="group-div">Precalc</div>
+                      <div className="button-div1">
                         <img
-                          className={styles.iconToolsEdit}
+                          className="icon-tools-edit"
                           alt=""
                           src="../icon--tools--edit.svg"
                         />
                       </div>
                     </div>
-                    <div className={styles.descriptionOfTheWorkflowAn1}>
+                    <div className="description-of-the-workflow-an1">
                       Description of the workflow and what it does. This is a
                       longer description to show what it looks like to break
                       line.
                     </div>
                   </div>
-                  <div className={styles.frameDiv7}>
-                    <div className={styles.frameDiv8}>
-                      <b className={styles.selectedB}>2 Selected</b>
-                      <div className={styles.buttonDiv4}>
+                  <div className="frame-div7">
+                    <div className="frame-div8">
+                      <b className="selected-b">2 Selected</b>
+                      <div className="button-div4">
                         <img
-                          className={styles.iconToolsEdit}
+                          className="icon-tools-edit"
                           alt=""
                           src="../icon--actions--moreoptionsvertical.svg"
                         />
-                        <div className={styles.groupDiv}>Action</div>
+                        <div className="group-div">Action</div>
                       </div>
                     </div>
-                    <div className={styles.divider1} />
-                    <div className={styles.newItemButton}>
-                      <div className={styles.buttonDiv5}>
+                    <div className="divider1" />
+                    <div className="new-item-button">
+                      <div className="button-div5">
                         <img
-                          className={styles.iconToolsEdit}
+                          className="icon-tools-edit"
                           alt=""
                           src="../icon--controls--add1.svg"
                         />
-                        <div className={styles.groupDiv}>New Item</div>
+                        <div className="group-div">New Item</div>
                       </div>
                       <img
-                        className={styles.iconDirectionsDropDown}
+                        className="icon-directions-dropdown"
                         alt=""
                         src="../icon-directions--dropdown.svg"
                       />
                     </div>
-                    <div className={styles.searchAndFilter}>
-                      <div className={styles.frameDiv9}>
-                        <div className={styles.labelDiv5}>225 items</div>
-                        <div className={styles.assetSearchBoxInput}>
-                          <div className={styles.assetsInputBox}>
-                            <div className={styles.inputAutoLayout}>
-                              <div className={styles.mCTDiv}>Search</div>
+                    <div className="search-and-filter">
+                      <div className="frame-div9">
+                        <div className="label-div5">225 items</div>
+                        <div className="asset-search-box-input">
+                          <div className="assets-input-box">
+                            <div className="input-auto-layout">
+                              <div className="mct-div">Search</div>
                               <img
-                                className={styles.iconToolsEdit}
+                                className="icon-tools-edit"
                                 alt=""
                                 src="../icon--actions--search.svg"
                               />
                             </div>
                           </div>
                         </div>
-                        <div className={styles.assetsFilterGroupInput}>
+                        <div className="assets-filter-group-input">
                           <img
-                            className={styles.iconToolsEdit}
+                            className="icon-tools-edit"
                             alt=""
                             src="../icon--actions--filters.svg"
                           />
@@ -141,529 +141,527 @@ const StudyManagement = () => {
                     </div>
                   </div>
                 </div>
-                <div className={styles.divider} />
+                <div className="divider" />
               </div>
-              <div className={styles.tableDiv}>
-                <div className={styles.tableRowListAccess}>
+              <div className="table-div">
+                <div className="table-row-list-access">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <b className={styles.labelDiv}>ID</b>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <b className="label-div">ID</b>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <b className={styles.labelDiv}>Name</b>
+                    <div className="frame-div12">
+                      <b className="label-div">Name</b>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <b className={styles.labelDiv}>Type</b>
+                    <div className="frame-div12">
+                      <b className="label-div">Type</b>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <b className={styles.labelDiv}>State</b>
+                    <div className="frame-div12">
+                      <b className="label-div">State</b>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv6}>
-                    <img className={styles.iconToolsEdit} alt="" />
+                  <div className="button-div6">
+                    <img className="icon-tools-edit" alt="" />
                   </div>
                 </div>
-                <div className={styles.tableRowListAccess1}>
+                <div className="table-row-list-access1">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <div className={styles.labelDiv}>1</div>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <div className="label-div">1</div>
                     </div>
-                    <div className={styles.frameDiv17}>
+                    <div className="frame-div17">
                       <img
-                        className={styles.iconGRIDSTARCUSTOMStudy}
+                        className="icon-gridstar-custom-study"
                         alt=""
                         src="../icon--gridstar-custom--nodes.svg"
                       />
-                      <div className={styles.mCTDiv}>Precalc</div>
+                      <div className="mct-div">Precalc</div>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <div className={styles.labelDiv}>Computing Task</div>
+                    <div className="frame-div12">
+                      <div className="label-div">Computing Task</div>
                     </div>
-                    <div className={styles.frameDiv19}>
-                      <div className={styles.labelDiv}>Published</div>
+                    <div className="frame-div19">
+                      <div className="label-div">Published</div>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--actions--directions--small.svg"
                     />
                   </div>
                 </div>
-                <div className={styles.tableRowListAccess1}>
+                <div className="table-row-list-access1">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <div className={styles.labelDiv}>1</div>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <div className="label-div">1</div>
                     </div>
-                    <div className={styles.frameDiv17}>
+                    <div className="frame-div17">
                       <img
-                        className={styles.iconGRIDSTARCUSTOMStudy}
+                        className="icon-gridstar-custom-study"
                         alt=""
                         src="../icon--gridstar-custom--nodes1.svg"
                       />
-                      <div className={styles.mCTDiv}>Cables</div>
+                      <div className="mct-div">Cables</div>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <div className={styles.labelDiv}>Computing Task</div>
+                    <div className="frame-div12">
+                      <div className="label-div">Computing Task</div>
                     </div>
-                    <div className={styles.frameDiv19}>
-                      <div className={styles.labelDiv}>Published</div>
+                    <div className="frame-div19">
+                      <div className="label-div">Published</div>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--actions--directions--small.svg"
                     />
                   </div>
                 </div>
-                <div className={styles.tableRowListAccess1}>
+                <div className="table-row-list-access1">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <div className={styles.labelDiv}>2</div>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <div className="label-div">2</div>
                     </div>
-                    <div className={styles.frameDiv17}>
+                    <div className="frame-div17">
                       <img
-                        className={styles.iconGRIDSTARCUSTOMStudy}
+                        className="icon-gridstar-custom-study"
                         alt=""
                         src="../icon--gridstar-custom--nodes2.svg"
                       />
-                      <div className={styles.mCTDiv}>Cables In</div>
+                      <div className="mct-div">Cables In</div>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <div className={styles.labelDiv}>Computing Task</div>
+                    <div className="frame-div12">
+                      <div className="label-div">Computing Task</div>
                     </div>
-                    <div className={styles.frameDiv19}>
-                      <div className={styles.labelDiv}>Published</div>
+                    <div className="frame-div19">
+                      <div className="label-div">Published</div>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--actions--directions--small.svg"
                     />
                   </div>
                 </div>
-                <div className={styles.tableRowListAccess1}>
+                <div className="table-row-list-access1">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <div className={styles.labelDiv}>3</div>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <div className="label-div">3</div>
                     </div>
-                    <div className={styles.frameDiv17}>
+                    <div className="frame-div17">
                       <img
-                        className={styles.iconGRIDSTARCUSTOMStudy}
+                        className="icon-gridstar-custom-study"
                         alt=""
                         src="../icon--gridstar-custom--nodes2.svg"
                       />
-                      <div className={styles.mCTDiv}>Cables Out</div>
+                      <div className="mct-div">Cables Out</div>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <div className={styles.labelDiv}>Computing Task</div>
+                    <div className="frame-div12">
+                      <div className="label-div">Computing Task</div>
                     </div>
-                    <div className={styles.frameDiv19}>
-                      <div className={styles.labelDiv}>Published</div>
+                    <div className="frame-div19">
+                      <div className="label-div">Published</div>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--actions--directions--small.svg"
                     />
                   </div>
                 </div>
-                <div className={styles.tableRowListAccess1}>
+                <div className="table-row-list-access1">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox5.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <div className={styles.labelDiv}>2</div>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <div className="label-div">2</div>
                     </div>
-                    <div className={styles.frameDiv17}>
+                    <div className="frame-div17">
                       <img
-                        className={styles.iconGRIDSTARCUSTOMStudy}
+                        className="icon-gridstar-custom-study"
                         alt=""
                         src="../icon--gridstar-custom--nodes1.svg"
                       />
-                      <div className={styles.mCTDiv}>Power Defined</div>
+                      <div className="mct-div">Power Defined</div>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <div className={styles.labelDiv}>Computing Task</div>
+                    <div className="frame-div12">
+                      <div className="label-div">Computing Task</div>
                     </div>
-                    <div className={styles.frameDiv19}>
-                      <div className={styles.labelDiv}>Published</div>
+                    <div className="frame-div19">
+                      <div className="label-div">Published</div>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--actions--directions--small.svg"
                     />
                   </div>
                 </div>
-                <div className={styles.tableRowListAccess1}>
+                <div className="table-row-list-access1">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <div className={styles.labelDiv}>2</div>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <div className="label-div">2</div>
                     </div>
-                    <div className={styles.frameDiv17}>
+                    <div className="frame-div17">
                       <img
-                        className={styles.iconGRIDSTARCUSTOMStudy}
+                        className="icon-gridstar-custom-study"
                         alt=""
                         src="../icon--gridstar-custom--nodes2.svg"
                       />
-                      <div className={styles.mCTDiv}>Power Defined In</div>
+                      <div className="mct-div">Power Defined In</div>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <div className={styles.labelDiv}>Computing Task</div>
+                    <div className="frame-div12">
+                      <div className="label-div">Computing Task</div>
                     </div>
-                    <div className={styles.frameDiv19}>
-                      <div className={styles.labelDiv}>Published</div>
+                    <div className="frame-div19">
+                      <div className="label-div">Published</div>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--actions--directions--small.svg"
                     />
                   </div>
                 </div>
-                <div className={styles.tableRowListAccess1}>
+                <div className="table-row-list-access1">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <div className={styles.labelDiv}>3</div>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <div className="label-div">3</div>
                     </div>
-                    <div className={styles.frameDiv17}>
+                    <div className="frame-div17">
                       <img
-                        className={styles.iconGRIDSTARCUSTOMStudy}
+                        className="icon-gridstar-custom-study"
                         alt=""
                         src="../icon--gridstar-custom--nodes2.svg"
                       />
-                      <div className={styles.mCTDiv}>Power Defined Out</div>
+                      <div className="mct-div">Power Defined Out</div>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <div className={styles.labelDiv}>Computing Task</div>
+                    <div className="frame-div12">
+                      <div className="label-div">Computing Task</div>
                     </div>
-                    <div className={styles.frameDiv19}>
-                      <div className={styles.labelDiv}>Published</div>
+                    <div className="frame-div19">
+                      <div className="label-div">Published</div>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--actions--directions--small.svg"
                     />
                   </div>
                 </div>
-                <div className={styles.tableRowListAccess1}>
+                <div className="table-row-list-access1">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <div className={styles.labelDiv}>3</div>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <div className="label-div">3</div>
                     </div>
-                    <div className={styles.frameDiv17}>
+                    <div className="frame-div17">
                       <img
-                        className={styles.iconGRIDSTARCUSTOMStudy}
+                        className="icon-gridstar-custom-study"
                         alt=""
                         src="../icon--gridstar-custom--nodes1.svg"
                       />
-                      <div className={styles.mCTDiv7}>
-                        Reactive Power Constraints
-                      </div>
+                      <div className="mct-div7">Reactive Power Constraints</div>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <div className={styles.labelDiv}>Computing Task</div>
+                    <div className="frame-div12">
+                      <div className="label-div">Computing Task</div>
                     </div>
-                    <div className={styles.frameDiv19}>
-                      <div className={styles.labelDiv}>Published</div>
+                    <div className="frame-div19">
+                      <div className="label-div">Published</div>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--actions--directions--small.svg"
                     />
                   </div>
                 </div>
-                <div className={styles.tableRowListAccess1}>
+                <div className="table-row-list-access1">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <div className={styles.labelDiv}>2</div>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <div className="label-div">2</div>
                     </div>
-                    <div className={styles.frameDiv17}>
+                    <div className="frame-div17">
                       <img
-                        className={styles.iconGRIDSTARCUSTOMStudy}
+                        className="icon-gridstar-custom-study"
                         alt=""
                         src="../icon--gridstar-custom--nodes2.svg"
                       />
-                      <div className={styles.mCTDiv}>
+                      <div className="mct-div">
                         Reactive Power Constraints In
                       </div>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <div className={styles.labelDiv}>Computing Task</div>
+                    <div className="frame-div12">
+                      <div className="label-div">Computing Task</div>
                     </div>
-                    <div className={styles.frameDiv19}>
-                      <div className={styles.labelDiv}>Published</div>
+                    <div className="frame-div19">
+                      <div className="label-div">Published</div>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--actions--directions--small.svg"
                     />
                   </div>
                 </div>
-                <div className={styles.tableRowListAccess1}>
+                <div className="table-row-list-access1">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <div className={styles.labelDiv}>3</div>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <div className="label-div">3</div>
                     </div>
-                    <div className={styles.frameDiv17}>
+                    <div className="frame-div17">
                       <img
-                        className={styles.iconGRIDSTARCUSTOMStudy}
+                        className="icon-gridstar-custom-study"
                         alt=""
                         src="../icon--gridstar-custom--nodes2.svg"
                       />
-                      <div className={styles.mCTDiv}>
+                      <div className="mct-div">
                         Reactive Power Constraints Out
                       </div>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <div className={styles.labelDiv}>Computing Task</div>
+                    <div className="frame-div12">
+                      <div className="label-div">Computing Task</div>
                     </div>
-                    <div className={styles.frameDiv19}>
-                      <div className={styles.labelDiv}>Published</div>
+                    <div className="frame-div19">
+                      <div className="label-div">Published</div>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--actions--directions--small.svg"
                     />
                   </div>
                 </div>
-                <div className={styles.tableRowListAccess1}>
+                <div className="table-row-list-access1">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox5.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <div className={styles.labelDiv}>4</div>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <div className="label-div">4</div>
                     </div>
-                    <div className={styles.frameDiv17}>
+                    <div className="frame-div17">
                       <img
-                        className={styles.iconGRIDSTARCUSTOMStudy}
+                        className="icon-gridstar-custom-study"
                         alt=""
                         src="../icon--gridstar-custom--nodes1.svg"
                       />
-                      <div className={styles.mCTDiv}>Corners PQ</div>
+                      <div className="mct-div">Corners PQ</div>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <div className={styles.labelDiv}>Computing Task</div>
+                    <div className="frame-div12">
+                      <div className="label-div">Computing Task</div>
                     </div>
-                    <div className={styles.frameDiv19}>
-                      <div className={styles.labelDiv}>Published</div>
+                    <div className="frame-div19">
+                      <div className="label-div">Published</div>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--actions--directions--small.svg"
                     />
                   </div>
                 </div>
-                <div className={styles.tableRowListAccess1}>
+                <div className="table-row-list-access1">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <div className={styles.labelDiv}>2</div>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <div className="label-div">2</div>
                     </div>
-                    <div className={styles.frameDiv17}>
+                    <div className="frame-div17">
                       <img
-                        className={styles.iconGRIDSTARCUSTOMStudy}
+                        className="icon-gridstar-custom-study"
                         alt=""
                         src="../icon--gridstar-custom--nodes2.svg"
                       />
-                      <div className={styles.mCTDiv}>Corners PQ In</div>
+                      <div className="mct-div">Corners PQ In</div>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <div className={styles.labelDiv}>Computing Task</div>
+                    <div className="frame-div12">
+                      <div className="label-div">Computing Task</div>
                     </div>
-                    <div className={styles.frameDiv19}>
-                      <div className={styles.labelDiv}>Published</div>
+                    <div className="frame-div19">
+                      <div className="label-div">Published</div>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--actions--directions--small.svg"
                     />
                   </div>
                 </div>
-                <div className={styles.tableRowListAccess1}>
+                <div className="table-row-list-access1">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <div className={styles.labelDiv}>3</div>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <div className="label-div">3</div>
                     </div>
-                    <div className={styles.frameDiv17}>
+                    <div className="frame-div17">
                       <img
-                        className={styles.iconGRIDSTARCUSTOMStudy}
+                        className="icon-gridstar-custom-study"
                         alt=""
                         src="../icon--gridstar-custom--nodes12.svg"
                       />
-                      <div className={styles.mCTDiv}>Corners PQ Out</div>
+                      <div className="mct-div">Corners PQ Out</div>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <div className={styles.labelDiv}>Computing Task</div>
+                    <div className="frame-div12">
+                      <div className="label-div">Computing Task</div>
                     </div>
-                    <div className={styles.frameDiv19}>
-                      <div className={styles.labelDiv}>Published</div>
+                    <div className="frame-div19">
+                      <div className="label-div">Published</div>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--actions--directions--small.svg"
                     />
                   </div>
                 </div>
-                <div className={styles.tableRowListAccess1}>
+                <div className="table-row-list-access1">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <div className={styles.labelDiv}>5</div>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <div className="label-div">5</div>
                     </div>
-                    <div className={styles.frameDiv17}>
+                    <div className="frame-div17">
                       <img
-                        className={styles.iconGRIDSTARCUSTOMStudy}
+                        className="icon-gridstar-custom-study"
                         alt=""
                         src="../icon--gridstar-custom--nodes13.svg"
                       />
-                      <div className={styles.mCTDiv7}>Transformer Rating</div>
+                      <div className="mct-div7">Transformer Rating</div>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <div className={styles.labelDiv}>Computing Task</div>
+                    <div className="frame-div12">
+                      <div className="label-div">Computing Task</div>
                     </div>
-                    <div className={styles.frameDiv19}>
-                      <div className={styles.labelDiv}>Published</div>
+                    <div className="frame-div19">
+                      <div className="label-div">Published</div>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--actions--directions--small.svg"
                     />
                   </div>
                 </div>
-                <div className={styles.tableRowListAccess1}>
+                <div className="table-row-list-access1">
                   <img
-                    className={styles.iconToolsEdit}
+                    className="icon-tools-edit"
                     alt=""
                     src="../checkbox.svg"
                   />
-                  <div className={styles.frameDiv10}>
-                    <div className={styles.frameDiv11}>
-                      <div className={styles.labelDiv}>2</div>
+                  <div className="frame-div10">
+                    <div className="frame-div11">
+                      <div className="label-div">2</div>
                     </div>
-                    <div className={styles.frameDiv17}>
+                    <div className="frame-div17">
                       <img
-                        className={styles.iconGRIDSTARCUSTOMStudy}
+                        className="icon-gridstar-custom-study"
                         alt=""
                         src="../icon--gridstar-custom--nodes12.svg"
                       />
-                      <div className={styles.mCTDiv}>Transformer Rating In</div>
+                      <div className="mct-div">Transformer Rating In</div>
                     </div>
-                    <div className={styles.frameDiv12}>
-                      <div className={styles.labelDiv}>Computing Task</div>
+                    <div className="frame-div12">
+                      <div className="label-div">Computing Task</div>
                     </div>
-                    <div className={styles.frameDiv19}>
-                      <div className={styles.labelDiv}>Published</div>
+                    <div className="frame-div19">
+                      <div className="label-div">Published</div>
                     </div>
                   </div>
-                  <div className={styles.buttonDiv1}>
+                  <div className="button-div1">
                     <img
-                      className={styles.iconToolsEdit}
+                      className="icon-tools-edit"
                       alt=""
                       src="../icon--actions--directions--small.svg"
                     />

@@ -5,6 +5,9 @@ import {
   useLocation,
 } from "react-router-dom";
 import StudyManagement from "./pages/StudyManagement";
+import FrameComponent from "./pages/FrameComponent";
+import Workspace from "./pages/Workspace";
+import ControlPanelConfiguration from "./pages/ControlPanelConfiguration";
 import { useEffect } from "react";
 
 function App() {
@@ -28,6 +31,18 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/frame-2681590":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/1920-workspace":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/control-panel-configuration":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -47,6 +62,15 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<StudyManagement />} />
+
+      <Route path="/frame-2681590" element={<FrameComponent />} />
+
+      <Route path="/1920-workspace" element={<Workspace />} />
+
+      <Route
+        path="/control-panel-configuration"
+        element={<ControlPanelConfiguration />}
+      />
     </Routes>
   );
 }
