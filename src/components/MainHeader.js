@@ -1,105 +1,105 @@
-import styles from "./MainHeader.module.css";
+import "./MainHeader.css";
 
 const MainHeader = () => {
   return (
-    <div className={styles.mainHeaderDiv}>
-      <div className={styles.highlightDiv} />
-      <div className={styles.menuBarDiv}>
-        <div className={styles.frameDiv}>
-          <div className={styles.groupDiv}>
-            <div className={styles.buttonDiv}>
-              <div className={styles.labelDiv}>Clear</div>
+    <div className="mainheader-div">
+      <div className="highlight-div2" />
+      <div className="menu-bar-div1">
+        <div className="frame-div249">
+          <div className="group-div27">
+            <div className="button-div129">
+              <div className="label-div102">Clear</div>
             </div>
-            <div className={styles.groupDiv1}>
+            <div className="group-div28">
               <img
-                className={styles.component1Icon}
+                className="component-1-icon1"
                 alt=""
                 src="../component-1.svg"
               />
-              <div className={styles.gridStarDiv}>
-                <div className={styles.gridstarDiv}>Gridstar</div>
+              <div className="gridstar-div2">
+                <div className="gridstar-div3">Gridstar</div>
               </div>
             </div>
           </div>
-          <img className={styles.borderIcon} alt="" src="../border.svg" />
-          <div className={styles.frameDiv1}>
-            <div className={styles.horizontalNavigationDiv}>
-              <div className={styles.itemAutoLayout}>
+          <img className="border-icon1" alt="" src="../border.svg" />
+          <div className="frame-div250">
+            <div className="horizontal-navigation-div6">
+              <div className="item-auto-layout5">
                 <img
-                  className={styles.iconGRIDSTARCUSTOMProje}
+                  className="icon-gridstar-custom-proje4"
                   alt=""
                   src="../icon--gridstar-custom--projects-all.svg"
                 />
               </div>
             </div>
-            <div className={styles.horizontalNavigationDiv1}>
-              <div className={styles.frameDiv2}>
-                <div className={styles.itemAutoLayout1}>
-                  <div className={styles.iconGRIDSTARCUSTOMProje}>
-                    <div className={styles.rectangleDiv} />
-                    <b className={styles.gLB}>GL</b>
-                    <img className={styles.gLIcon} alt="" src="../gl.svg" />
+            <div className="horizontal-navigation-div7">
+              <div className="frame-div251">
+                <div className="item-auto-layout6">
+                  <div className="icon-gridstar-custom-proje4">
+                    <div className="rectangle-div149" />
+                    <b className="gl-b1">GL</b>
+                    <img className="gl-icon1" alt="" src="../gl.svg" />
                   </div>
-                  <div className={styles.textDiv}>GridLink</div>
+                  <div className="text-div16">GridLink</div>
                 </div>
-                <div className={styles.buttonDiv1}>
+                <div className="button-div130">
                   <img
-                    className={styles.iconGRIDSTARCUSTOMProje}
+                    className="icon-gridstar-custom-proje4"
                     alt=""
                     src="../close-small.svg"
                   />
                 </div>
               </div>
             </div>
-            <div className={styles.horizontalNavigationDiv2}>
-              <div className={styles.frameDiv2}>
-                <div className={styles.itemAutoLayout1}>
-                  <div className={styles.iconGRIDSTARCUSTOMProje}>
-                    <div className={styles.rectangleDiv} />
-                    <img className={styles.p1Icon} alt="" src="../p1.svg" />
+            <div className="horizontal-navigation-div8">
+              <div className="frame-div251">
+                <div className="item-auto-layout6">
+                  <div className="icon-gridstar-custom-proje4">
+                    <div className="rectangle-div149" />
+                    <img className="p1-icon1" alt="" src="../p1.svg" />
                   </div>
-                  <div className={styles.textDiv1}>Project 1</div>
+                  <div className="text-div17">Project 1</div>
                 </div>
-                <div className={styles.buttonDiv1}>
+                <div className="button-div130">
                   <img
-                    className={styles.iconGRIDSTARCUSTOMProje}
+                    className="icon-gridstar-custom-proje4"
                     alt=""
                     src="../close-small.svg"
                   />
                 </div>
               </div>
             </div>
-            <div className={styles.horizontalNavigationDiv2}>
-              <div className={styles.frameDiv2}>
-                <div className={styles.itemAutoLayout1}>
-                  <div className={styles.iconGRIDSTARCUSTOMProje}>
-                    <div className={styles.rectangleDiv} />
-                    <img className={styles.p2Icon} alt="" src="../p2.svg" />
+            <div className="horizontal-navigation-div8">
+              <div className="frame-div251">
+                <div className="item-auto-layout6">
+                  <div className="icon-gridstar-custom-proje4">
+                    <div className="rectangle-div149" />
+                    <img className="p2-icon1" alt="" src="../p2.svg" />
                   </div>
-                  <div className={styles.textDiv1}>Project 2</div>
+                  <div className="text-div17">Project 2</div>
                 </div>
-                <div className={styles.buttonDiv1}>
+                <div className="button-div130">
                   <img
-                    className={styles.iconGRIDSTARCUSTOMProje}
+                    className="icon-gridstar-custom-proje4"
                     alt=""
                     src="../close-small.svg"
                   />
                 </div>
               </div>
             </div>
-            <div className={styles.horizontalNavigationDiv4}>
-              <div className={styles.frameDiv5}>
-                <div className={styles.itemAutoLayout4}>
+            <div className="horizontal-navigation-div10">
+              <div className="frame-div254">
+                <div className="item-auto-layout9">
                   <img
-                    className={styles.iconGRIDSTARCUSTOMProje}
+                    className="icon-gridstar-custom-proje4"
                     alt=""
                     src="../icon--gridstar-custom--studyicongridstar-customstudy-management.svg"
                   />
-                  <div className={styles.textDiv3}>Study Management</div>
+                  <div className="text-div19">Study Management</div>
                 </div>
-                <div className={styles.buttonDiv1}>
+                <div className="button-div130">
                   <img
-                    className={styles.iconGRIDSTARCUSTOMProje}
+                    className="icon-gridstar-custom-proje4"
                     alt=""
                     src="../close-small.svg"
                   />
@@ -108,37 +108,33 @@ const MainHeader = () => {
             </div>
           </div>
         </div>
-        <div className={styles.actionsDiv}>
-          <div className={styles.buttonDiv1}>
+        <div className="actions-div1">
+          <div className="button-div130">
             <img
-              className={styles.iconGRIDSTARCUSTOMProje}
+              className="icon-gridstar-custom-proje4"
               alt=""
               src="../icon--gridstar-custom--studyicongridstar-customstudy-management1.svg"
             />
           </div>
-          <div className={styles.buttonDiv1}>
+          <div className="button-div130">
             <img
-              className={styles.iconGRIDSTARCUSTOMProje}
+              className="icon-gridstar-custom-proje4"
               alt=""
               src="../icon--gridstar-custom--settings.svg"
             />
           </div>
-          <div className={styles.buttonDiv1}>
+          <div className="button-div130">
             <img
-              className={styles.iconGRIDSTARCUSTOMProje}
+              className="icon-gridstar-custom-proje4"
               alt=""
               src="../badge.svg"
             />
           </div>
-          <div className={styles.buttonDiv1}>
-            <div className={styles.iconGRIDSTARCUSTOMProje}>
+          <div className="button-div130">
+            <div className="icon-gridstar-custom-proje4">
+              <img className="image-3-icon1" alt="" src="../image-3@2x.png" />
               <img
-                className={styles.image3Icon}
-                alt=""
-                src="../image-3@2x.png"
-              />
-              <img
-                className={styles.ellipseIcon}
+                className="ellipse-icon1"
                 alt=""
                 src="../ellipse-218@2x.png"
               />
@@ -146,7 +142,7 @@ const MainHeader = () => {
           </div>
         </div>
       </div>
-      <div className={styles.highlightDiv1} />
+      <div className="highlight-div3" />
     </div>
   );
 };
