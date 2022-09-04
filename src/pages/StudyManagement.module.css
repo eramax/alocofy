@@ -1,0 +1,452 @@
+.rectangleDiv {
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 12.5%;
+  border-radius: 100px;
+  border: 1px solid #414141;
+  box-sizing: border-box;
+}
+.mCPB {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconGRIDSTARCUSTOMStudy {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.mainCircuitParameters {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+}
+.labelDiv,
+.mainCircuitParameters {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  display: inline-block;
+}
+.tagDiv {
+  background-color: #d3e9f6;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.iconControlsAdd {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.buttonDiv,
+.tagsDiv {
+  flex-direction: row;
+  align-items: center;
+}
+.buttonDiv {
+  border-radius: 2px;
+  display: none;
+  justify-content: center;
+}
+.tagsDiv {
+  display: flex;
+  justify-content: flex-start;
+  gap: 4px;
+  font-size: 12px;
+}
+.iconToolsEdit {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.buttonDiv1,
+.frameDiv2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonDiv1 {
+  border-radius: 2px;
+  justify-content: center;
+}
+.frameDiv2 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.descriptionOfTheWorkflowAn {
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  text-align: left;
+  display: inline-block;
+}
+.frameDiv1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.buttonDiv2 {
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.frameDiv,
+.frameDiv3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv3 {
+  text-align: left;
+  font-size: 12px;
+}
+.frameDiv {
+  align-self: stretch;
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 40px;
+}
+.divider {
+  align-self: stretch;
+  background-color: #e8e8e8;
+  height: 1px;
+  flex-shrink: 0;
+}
+.studyHeaderDiv {
+  align-self: stretch;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.descriptionOfTheWorkflowAn1,
+.groupDiv {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  display: inline-block;
+}
+.groupDiv {
+  font-weight: 600;
+}
+.descriptionOfTheWorkflowAn1 {
+  font-size: 12px;
+}
+.selectedB {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.buttonDiv4,
+.frameDiv8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonDiv4 {
+  border-radius: 2px;
+  background-color: #f7f7f7;
+  padding: 0 10px 0 0;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 4px;
+  font-size: 12px;
+}
+.frameDiv8 {
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 10px;
+}
+.divider1 {
+  align-self: stretch;
+  background-color: #e8e8e8;
+  width: 1px;
+  flex-shrink: 0;
+}
+.buttonDiv5,
+.iconDirectionsDropDown {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.buttonDiv5 {
+  width: 100%;
+  left: 0;
+  border-radius: 2px;
+  background-color: #2064b4;
+  display: flex;
+  flex-direction: row;
+  padding: 0 36px 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.iconDirectionsDropDown {
+  width: 24.43%;
+  left: 75.57%;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+.newItemButton {
+  position: relative;
+  width: 131px;
+  height: 32px;
+  flex-shrink: 0;
+  color: #fff;
+}
+.labelDiv5 {
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  font-weight: 600;
+  display: none;
+}
+.inputAutoLayout {
+  align-self: stretch;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 10px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.assetSearchBoxInput,
+.assetsInputBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.assetsInputBox {
+  align-self: stretch;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.assetSearchBoxInput {
+  flex: 1;
+  color: #999;
+}
+.assetsFilterGroupInput {
+  border-radius: 2px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.assetsFilterGroupInput,
+.frameDiv7,
+.frameDiv9,
+.searchAndFilter {
+  display: flex;
+  flex-direction: row;
+}
+.frameDiv9,
+.searchAndFilter {
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameDiv9 {
+  flex: 1;
+  gap: 10px;
+}
+.frameDiv7 {
+  flex-shrink: 0;
+}
+.searchAndFilter {
+  width: 252px;
+  flex-shrink: 0;
+}
+.frameDiv7 {
+  width: 755px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 10px;
+  font-size: 12px;
+}
+.frameDiv11,
+.frameDiv12 {
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.frameDiv11 {
+  width: 90px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameDiv12 {
+  flex-direction: row;
+}
+.frameDiv10,
+.frameDiv12 {
+  flex: 1;
+  justify-content: flex-start;
+}
+.buttonDiv6,
+.frameDiv10,
+.tableRowListAccess {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonDiv6 {
+  border-radius: 2px;
+  justify-content: center;
+  opacity: 0;
+}
+.tableRowListAccess {
+  align-self: stretch;
+  background-color: #f7f7f7;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  position: relative;
+  height: 41px;
+  flex-shrink: 0;
+  padding: 0 12px;
+  justify-content: flex-start;
+}
+.mCTDiv {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  display: inline-block;
+}
+.frameDiv17,
+.frameDiv19 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.frameDiv17 {
+  padding: 0 0 0 5px;
+  align-items: center;
+  gap: 10px;
+}
+.frameDiv19 {
+  padding: 10px;
+  align-items: flex-start;
+  color: #2d825d;
+}
+.mCTDiv7,
+.tableRowListAccess1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.tableRowListAccess1 {
+  align-self: stretch;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  height: 41px;
+  flex-direction: row;
+  padding: 0 12px;
+  justify-content: flex-start;
+}
+.mCTDiv7 {
+  letter-spacing: 0.36px;
+  line-height: 18px;
+  width: 231px;
+}
+.groupContentDiv,
+.tableDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tableDiv {
+  font-size: 12px;
+}
+.groupContentDiv {
+  flex: 1;
+  box-shadow: -1px 0 1px #e8e8e8;
+  overflow-y: auto;
+  padding: 0 0 20px;
+  box-sizing: border-box;
+}
+.groupsDiv {
+  flex: 1;
+  align-self: stretch;
+  flex-direction: row;
+  text-align: left;
+  font-size: 14px;
+}
+.groupsDiv,
+.mainContentDiv,
+.studyContentDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.studyContentDiv {
+  flex: 1;
+  height: 1036px;
+  flex-direction: column;
+}
+.mainContentDiv {
+  position: absolute;
+  width: 100%;
+  top: 44px;
+  right: 0;
+  left: 0;
+  flex-direction: row;
+}
+.studyManagementDiv {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+  font-size: 8px;
+  color: #414141;
+  font-family: "Open Sans";
+}
